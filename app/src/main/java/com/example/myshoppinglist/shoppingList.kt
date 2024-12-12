@@ -192,7 +192,7 @@ fun ShoppingListItem(
             IconButton(onClick = onClickEdit) {
                 Icon(imageVector = Icons.Default.Edit, contentDescription = "Edit Item")
             }
-            IconButton(onClick = onClickEdit) {
+            IconButton(onClick = onClickDelete) {
                 Icon(imageVector = Icons.Default.Delete, contentDescription = "Delete Item")
             }
         }
